@@ -102,6 +102,12 @@
     " Mapeia F2 para ativar/desativar a correção ortográfica
     map <f2> :set spell!<cr>
 
+    " Mapeia <leader>h para ir para a aba da esquerda
+    nnoremap <leader>h :tabprevious<CR>
+
+    " Mapeia <leader>l para ir para a aba da direita
+    nnoremap <leader>l :tabnext<CR>
+
 " -----------------------------------------------------------------------------
 " MAPEAMENTOS E AÇÕES RÁPIDAS
 " -----------------------------------------------------------------------------
@@ -307,4 +313,5 @@
 
     " Não expande tabulações em arquivos make...
     autocmd filetype make setlocal noexpandtab 
+
 
